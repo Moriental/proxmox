@@ -1,0 +1,18 @@
+# SSH / TLS private keys
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# cloud-init / secrets
+*.env
+*token*
+*secret*
+
+# OS junk
+.DS_Store
+Thumbs.db
